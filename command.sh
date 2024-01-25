@@ -1,0 +1,2 @@
+aws events test-event-pattern --event-pattern '{"source": ["request_event"], "detail-type": ["calculation request"], "detail": {"num1": ["5"]}}' \
+ --event '{"id": "e00c66cb-fe7a-4fcc-81ad-58eb60f5d96b", "detail-type": "calculation request", "source": "request_event", "account": "123456789012", "time": "2016-01-10T01:29:23Z", "region": "us-east-1", "detail": "{\"num1\":\"5\"}"}'
